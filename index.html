@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Job Application Form</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Application Form -->
+  <div class="form-box">
+    <h2>Job Application</h2>
+    <form action="thank-you.html" method="get">
+
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="role">Current Role:</label>
+      <input type="text" id="role" name="role" placeholder="e.g. Software Engineer" required>
+
+      <label for="company">Current Company:</label>
+      <input type="text" id="company" name="company" placeholder="e.g. Google" required>
+
+      <label for="resume">Upload Resume:</label>
+      <input type="file" id="resume" name="resume" required>
+
+      <label for="coverLetter">Upload Cover Letter:</label>
+      <input type="file" id="coverLetter" name="coverLetter" required>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+
+</body>
+</html>
